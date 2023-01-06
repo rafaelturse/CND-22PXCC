@@ -1,0 +1,40 @@
+:root {
+    --color-bright-white: #FEFEFE;
+    --color-soft-dark-gray: #333;
+    --color-soft-white: #EAEAEA;
+    --color-pink: #E33881;
+    --color-purple: #514988;
+    --color-yellow: #FFD900;
+  }
+
+/* BUTTON */
+.btn-main.btn { --bs-btn-font-size: 2rem; }
+
+.btn-main {
+    background: var(--color-purple) !important;
+    color: var(--color-bright-white) !important;
+    
+    height: 5rem;
+    width: 25rem;
+}
+.btn-main:hover {
+    background: var(--color-yellow) !important;
+    color: var(--color-soft-dark-gray) !important;
+}
+
+/* GENERAL */
+.top-info-left-describe { background-color: var(--color-purple) !important; }
+.top-menu { background-color: var(--color-yellow) !important; }
+
+/* IMAGE */
+.ticket:hover { border: var(--color-yellow) 5px solid !important; }
+
+/* SIZE */
+.fs-wide { font-size: 3rem; }
+
+/* TEXT */
+.text-bright-white { color: var(--color-bright-white) !important; }
+.text-soft-white { color: var(--color-soft-white) !important; }
+.text-pink { color: var(--color-pink) !important; }
+.text-purple { color: var(--color-purple) !important; }
+.text-yellow { color: var(--color-yellow) !important; }
